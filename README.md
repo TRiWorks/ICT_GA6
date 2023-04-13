@@ -11,6 +11,12 @@ This repository implements the following GitHub Actions:
    * Install packages
    * Build application
    * Once build is finished, deploy application to GitHub Pages
+ - Running a code formatter, Prettier, on pull requests to make code look nicer
+   * When a pull request is made, start the action
+   * Set up a Node.js v16 environment
+   * Install Prettier
+   * Run Prettier
+   * Create a commit to the pull request containing all the formatting changes
 
 ## People involved
  - Johannes
