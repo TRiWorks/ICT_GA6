@@ -1,12 +1,12 @@
 import logo from "./logo.jpg";
 import "./App.css";
 
-function App() {
+function App() {  
   return (
     <div className="App">
-      <header className="App-header">
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <a
+           <a
           className="App-link"
           href="https://www.youtube.com/watch?v=v2AC41dglnM"
           target="_blank"
@@ -14,9 +14,9 @@ function App() {
         >
           Learn CI/CD!
         </a>
-      </header>
+           </header>
     </div>
   );
 }
 
-export default App;
+export default App
